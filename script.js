@@ -12,9 +12,9 @@ Name[9]="Jim"
 
 for(var i = 0; i < Name.length; i++){
     if(Name[i].charAt(0) === 'J' || Name[i].charAt(0) ==='j'){
-        console.log("Goodbye"+ Name[i])
+        console.log("Goodbye "+ Name[i])
     }
     else{
-        console.log("Hello"+ Name[i])
+        console.log("Hello "+ Name[i])
     }    
 }
